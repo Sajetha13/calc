@@ -85,6 +85,7 @@ Publish the website in the given URL.
 ```
 
 ### index.js
+```
 let screen = document.getElementById('screen');
 buttons = document.querySelectorAll('button');
 let screenValue = '';
@@ -111,8 +112,10 @@ for (item of buttons) {
 
     })
 }
+```
 
 ### style.css
+```
 .container{
     text-align: center;
     margin-top:23px
@@ -152,11 +155,11 @@ h1{
     font-size: 28px;
     font-family: 'Courier New', Courier, monospace;
 }
-
+```
 ## OUTPUT:
 ![output](output-calc.PNG)
 ![output](output-calc2.PNG)
-![output](outut-calc3.PNG)
+![output](output-calc3.PNG)
 
 ## Result:
 The program for implementing simple calculator using HTML, CSS and JavaScript is executed successfully.
